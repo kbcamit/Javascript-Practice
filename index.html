@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Dom Practice</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            border: 1px solid black;
+        }
+
+        #getEle {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<!-- <body onload="startImage()"> -->
+
+<body>
+    <div id="wrapper">Page 1</div>
+    <!--
+    <a href="index.html">index</a>
+    <a href="index2.html">index2</a>
+    <a href="index3.html">index3</a> -->
+    <!-- <input type="button" onclick="goBack()" value="Back"/> 
+    <input type="button" onclick="print()" value="Print" /> -->
+    <!--<form name="myForm">-->
+    <!-- <input type="text" name="url"/>
+        <input type="button" onclick="changeWrapper()" value="Submit"/> -->
+    <!-- <input type="number" onchange="minusNumber()" name="firstNumber" id="firstNumber" value="0"/>
+        <input type="number" onchange="minusNumber()" id="secondNumber" name="secondNumber" value="0"/>
+        <input type="number" name="result" id="result"/> -->
+    <!-- <input type="button" onclick="addNumber()" value="Submit" /> -->
+    <!--
+       <img src="http://via.placeholder.com/350x150/000?text=image 1" onmouseover="changeImage(this)" onmouseout="backImage(this)">
+       -->
+    <!-- <input type="text" name="firstName" value="Kalyan" id="e1">
+       <input type="text" name="secondName" value="Chakraborty" id="e2">
+       <input type="button" value="Submit" onclick="sendInfo()"> -->
+    <!--
+        <select onchange="changeImageU()">
+            <option value="">Select</option>
+            <option value="150x150">Small</option>
+            <option value="350x150">Medium</option>
+            <option value="750x150">Large</option>
+        </select>
+        <input type="text" onchange="changeImageU()">
+        <input type="color" onchange="changeImageU()"><br>
+        <img src="http://via.placeholder.com/350x150/000?text=image 1" id="myImage">
+    </form>
+-->
+    <!--Image Carousel-->
+    <!-- <img id="myImage"> -->
+    <!-- <input type="text" name="name" onkeypress="checkName()"> -->
+
+    <!--Form Validation-->
+    <!-- <form action="index2.html" method="GET" onsubmit="return valForm()">
+        <input type="text" id="firstName">
+        <input type="text" id="secondName">
+        <input type="text" id="age">
+        <input type="submit" value="Submit">
+    </form> -->
+    <!--Drag And Drop-->
+    <div class="box" ondrop="dDrop()" ondragover="nOver()">1
+        <div id="getEle" draggable="true" ondragstart="dragStart()">Drag This</div>
+    </div>
+    <div class="box" ondrop="dDrop()" ondragover="nOver()">2</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
